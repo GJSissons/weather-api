@@ -2,11 +2,9 @@ db_name storyt22_weather
 
 db_user storyt22_wp802
 
-db_pass 0wpSU]g)58
+db_pass *****
 
 db_host localhost
-
-
 
 
 create table weather_history (
@@ -17,7 +15,6 @@ create table weather_history (
     time_created timestamp,
     CONSTRAINT uc_datelocation UNIQUE (datekey,location)
 );
-
 
 
 drop table weather_history;
