@@ -4,7 +4,7 @@ $db_settings = array("servername" => "localhost",
                      "db_name" => "storyt22_weather",
                      "table_name" => "weather_history",
                      "username" => "storyt22_wp802",
-                     "password" => "0wpSU]g)58"
+                     "password" => "*******"
                 );
 
 function num_cache_items($db_settings) {
